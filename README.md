@@ -30,6 +30,14 @@ Easily perform advanced network scanning, visualize results, and manage your sca
 
 ---
 
+## 🖥️ Screenshots
+
+| Main Window | Vulnerability Tooltip | GeoIP/WHOIS |
+|-------------|----------------------|-------------|
+| ![Main UI](assets/screenshot_main.png) | ![Vuln](assets/screenshot_vuln.png) | ![GeoIP](assets/screenshot_geoip.png) |
+
+---
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Prerequisites
