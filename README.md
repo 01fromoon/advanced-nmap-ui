@@ -83,7 +83,7 @@ See `requirements.txt` for Python dependencies.
 
 ## 📝 License
 
-MIT License © 2025 [Your Name or Organization]
+MIT License © 2025
 
 ---
 
