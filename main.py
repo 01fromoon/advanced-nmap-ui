@@ -13,7 +13,6 @@ if __name__ == "__main__":
     if os.path.exists(ICON_PATH):
         app.setWindowIcon(QIcon(ICON_PATH))
 
-    # main_window'ı başta yaratma, dili SplashScreen'den al!
     main_window = None
 
     def show_main(selected_lang):
