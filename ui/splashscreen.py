@@ -88,7 +88,6 @@ class SplashScreen(QWidget):
                     color: #181f29;
                 }
             """)
-            # Düzgün bağlamak için default parametre
             lang_btn.clicked.connect(lambda checked=False, code=lang_code: self.select_language(code))
             self.language_buttons.append(lang_btn)
             menu_layout.addWidget(lang_btn)
@@ -107,7 +106,6 @@ class SplashScreen(QWidget):
         self.go_to_loading()
 
     def go_to_loading(self):
-        # Temizle
         while self.main_layout.count():
             item = self.main_layout.takeAt(0)
             widget = item.widget()
@@ -145,7 +143,6 @@ class SplashScreen(QWidget):
         QWidget().setLayout(self.main_layout)
         self.setLayout(loading_layout)
 
-        # Animasyon
         self.logo_opacity = QGraphicsOpacityEffect(self.logo_label)
         self.logo_label.setGraphicsEffect(self.logo_opacity)
         self.logo_opacity.setOpacity(0.0)
