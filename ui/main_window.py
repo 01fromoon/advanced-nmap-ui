@@ -267,7 +267,6 @@ TRANSLATIONS = {
         ]
     }
 }
-# ... (Yukarıdaki kodun devamı)
 
 COPY_TEXTS = {
     "en": {"copy": "Copy", "copied": "Copied!"},
@@ -278,8 +277,7 @@ COPY_TEXTS = {
 }
 
 VULN_KNOWN = {
-    # (Yukarıda olduğu gibi, her dil için port açıklamaları)
-    # ...
+
 }
 
 NMAP_PROFILE_PARAMS = [
@@ -673,7 +671,6 @@ class NmapGUI(QWidget):
         self.profile_combo.setCurrentIndex(self.current_profile_index)
         self.profile_combo.blockSignals(False)
         self.update_command()
-        # Copy butonu güncelle
         self.copy_command_btn.setText(COPY_TEXTS[self.current_lang]["copy"])
         self.copy_command_btn.setToolTip(COPY_TEXTS[self.current_lang]["copy"])
 
